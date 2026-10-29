@@ -15,9 +15,9 @@
             android:id="@+id/iv_banner"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="Campus Banner"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_main_banner"
-            android:contentDescription="Campus Banner" />
+            android:src="@drawable/img_main_banner" />
 
         <TextView
             android:id="@+id/tv_banner_title"
@@ -56,10 +56,10 @@
                     android:layout_height="0dp"
                     android:layout_weight="4"
                     android:background="@drawable/button_selector"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/img_btn_facilities"
+                    android:contentDescription="Facilities"
                     android:onClick="onFacilitiesClick"
-                    android:contentDescription="Facilities" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_btn_facilities" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,10 +83,10 @@
                     android:layout_height="0dp"
                     android:layout_weight="4"
                     android:background="@drawable/button_selector"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/img_btn_events"
+                    android:contentDescription="Events"
                     android:onClick="onEventsClick"
-                    android:contentDescription="Events" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_btn_events" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -117,10 +117,10 @@
                     android:layout_height="0dp"
                     android:layout_weight="4"
                     android:background="@drawable/button_selector"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/img_btn_clubs"
+                    android:contentDescription="Clubs"
                     android:onClick="onClubsClick"
-                    android:contentDescription="Clubs" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_btn_clubs" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -144,10 +144,10 @@
                     android:layout_height="0dp"
                     android:layout_weight="4"
                     android:background="@drawable/button_selector"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/img_btn_support"
+                    android:contentDescription="Support"
                     android:onClick="onSupportClick"
-                    android:contentDescription="Support" />
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_btn_support" />
 
                 <TextView
                     android:layout_width="wrap_content"

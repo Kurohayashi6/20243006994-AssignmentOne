@@ -14,9 +14,9 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="Detail Banner"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_main_banner"
-            android:contentDescription="Detail Banner" />
+            android:src="@drawable/img_main_banner" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,9 +29,9 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="Topic Icon"
                 android:scaleType="fitCenter"
-                android:src="@drawable/img_btn_facilities"
-                android:contentDescription="Topic Icon" />
+                android:src="@drawable/img_btn_facilities" />
 
             <TextView
                 android:id="@+id/tv_detail_header"
@@ -61,8 +61,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="This is a title"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_detail_content"
