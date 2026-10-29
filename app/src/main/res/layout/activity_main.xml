@@ -34,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/green"
         android:orientation="vertical">
 
         <LinearLayout
@@ -54,6 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
+                    android:background="@drawable/button_selector"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_facilities"
                     android:contentDescription="Facilities" />
@@ -63,7 +65,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Facilities" />
+                    android:text="Facilities"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
             <LinearLayout
@@ -78,6 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
+                    android:background="@drawable/button_selector"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_events"
                     android:contentDescription="Events" />
@@ -87,7 +91,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Events" />
+                    android:text="Events"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
@@ -109,6 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
+                    android:background="@drawable/button_selector"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_clubs"
                     android:contentDescription="Clubs" />
@@ -118,7 +124,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Clubs" />
+                    android:text="Clubs"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
             <LinearLayout
@@ -133,6 +140,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
+                    android:background="@drawable/button_selector"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_support"
                     android:contentDescription="Support" />
@@ -142,7 +150,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Support" />
+                    android:text="Support"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
